@@ -21,7 +21,7 @@ A full-stack task management app built for the Flodo AI take-home assignment.
 ## Project Structure
 
 ```
-flodo_tasks/
+flodo-tasks-app-adarsh/
 ├── config/                  ← Django project settings and URL root
 │   ├── settings.py
 │   ├── urls.py
