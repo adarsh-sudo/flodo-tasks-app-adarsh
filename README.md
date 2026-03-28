@@ -266,22 +266,6 @@ All endpoints are under `/api/tasks/`.
 
 ---
 
-## Technical Decision I'm Proud Of
-
-### `on_delete=SET_NULL` on the self-referential blocked_by foreign key
-
-In `tasks/models.py`, the `blocked_by` field is a foreign key that points to another row in the **same** table:
-
-```python
-blocked_by = models.ForeignKey(
-    'self',
-    null=True, blank=True,
-    on_delete=models.SET_NULL,   # ← this choice matters
-    related_name='blocking',
-)
-```
-
-
 ## AI Usage Report
 
 AI tools used: Claude (Anthropic)
