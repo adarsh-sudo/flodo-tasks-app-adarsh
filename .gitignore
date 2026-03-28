@@ -4,4 +4,42 @@ db.sqlite3-journal
 __pycache__/
 *.pyc    
 .env/
-*.log      
+*.log   
+
+
+# 🔧 Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# 📦 Build outputs
+build/
+flutter_export_environment.sh
+
+# 📱 Platform-specific generated files
+android/.gradle/
+android/app/build/
+android/local.properties
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/
+ios/Runner.xcworkspace/
+
+# 🖥️ Desktop builds
+linux/build/
+windows/build/
+macos/build/
+
+coverage/
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.swp
+
