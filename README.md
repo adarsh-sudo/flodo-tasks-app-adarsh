@@ -75,7 +75,8 @@ flodo_tasks/
 ### Step 1 — Navigate to the project root
 
 ```bash
-cd flodo_tasks
+cd flodo-tasks-app-adarsh
+
 ```
 
 ### Step 2 — Create and activate a virtual environment
